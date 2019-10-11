@@ -40,6 +40,7 @@ go get github.com/stamblerre/gocode
 go get github.com/rogpeppe/godef
 go get github.com/sqs/goreturns
 go get golang.org/x/lint/golint
+go get github.com/stamblerre/gocode
 
 echo "Installing 'realize' to allow for touch reload..."
 go get github.com/oxequa/realize
