@@ -5,14 +5,14 @@ sudo apt update && sudo apt -y upgrade
 sudo apt install -y software-properties-common
 
 # If installing later versions manually
-#sudo add-apt-repository ppa:longsleep/golang-backports
-#sudo apt update
+sudo add-apt-repository -y ppa:longsleep/golang-backports
+sudo apt update
 #sudo apt install -y golang-1.11
 # - Or -
-#sudo apt install golang-go
+sudo apt install -y golang-go
 
 # If letting default pkg manager do install
-sudo apt install -y golang-go.tools
+#sudo apt install -y golang-go.tools
 
 # Set up Go folders
 mkdir -p $HOME/go/src
